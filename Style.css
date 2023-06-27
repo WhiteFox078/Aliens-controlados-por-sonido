@@ -1,0 +1,30 @@
+.header_div{
+    background-color: aliceblue;
+    color: rgb(80, 96, 145);
+}
+.header_div p{
+    font-family:'Caveat', cursive ;
+    color: rgb(89, 122, 122);
+    letter-spacing: 2px;
+    font-size: 27px;
+    font-weight:bold;
+}
+.main_div button{
+    font-family:'Caveat', cursive ;
+    color: #768d89;
+    margin-top: 30px;
+    width: 150px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+.copy_right_footer{
+    color: rgb(74, 77, 94);
+    background-color: rgb(175, 182, 185);
+    font-size: 20px;
+    text-shadow: 5px 5px 5px rgb(230, 216, 236) ;
+    text-align: center;
+    line-height: 3;
+    position:fixed;
+    bottom:0;
+    width: 100%;
+}

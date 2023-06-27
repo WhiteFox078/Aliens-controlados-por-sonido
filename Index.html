@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Aplicación Web - Identificador de sonido</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Cinzel&display=swap" rel="stylesheet">
+</head>
+
+  <body>
+     <!--1 crear una etiqueta div para el encabezado de la
+página web. Esta debe contener el título y una nota. Define la etiqueta div-->
+    <div class="col-xs-12 header_div text-center">
+      <h2>Aliens controlados por sonido</h2>
+      <p>Nota: Haz diferentes sonidos como aplausos, chasquidos o campanas para hacer bailar a los aliens</p> 
+    </div>
+ <!--3 Aade otra etiqueta div para el pie de página.-->
+      <div class="main_div">
+        <center>
+            <button class="btn btn-warning" onclick="startClassification();">COMENZAR</button>
+            <br>
+            <h3 id="etiqueta_resultado">Escucho...</h3>
+            <h3 id="etiqueta_precisión">Precisión...</h3>
+            <br>
+            <img src="aliens-01.png" id="alien1" width="300" height="300">
+            <img src="aliens-02.png" id="alien2" width="300" height="300">
+            <img src="aliens-03.png" id="alien3" width="300" height="300">
+            <img src="aliens-04.png" id="alien4" width="300" height="300">
+        </center>
+      </div>
+      <div class="copy_right_footer">Creado por: Victria Padme</div>
+<script src="main.js"></script>
+  </body>
+</html>
